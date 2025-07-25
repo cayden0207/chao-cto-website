@@ -23,6 +23,10 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
     padding-top: 78px;
+    transform: scale(0.67);
+    transform-origin: top left;
+    width: 149.25%; /* 100% / 0.67 = 149.25% */
+    height: 149.25vh;
 }
 
 /* 顶部CA地址条 */
