@@ -23,10 +23,6 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
     padding-top: 78px;
-    transform: scale(0.67);
-    transform-origin: top left;
-    width: 149.25%; /* 100% / 0.67 = 149.25% */
-    height: 149.25vh;
 }
 
 /* 顶部CA地址条 */
@@ -151,7 +147,7 @@ body {
 
 .hero-title {
     font-family: 'Bebas Neue', cursive;
-    font-size: clamp(15rem, 30vw, 27rem);
+    font-size: clamp(7.5rem, 15vw, 13.5rem);
     line-height: 0.8;
     letter-spacing: 0.03em;
     margin: 0;
@@ -182,7 +178,7 @@ body {
 
 .subtitle-text {
     font-family: 'Noto Sans SC', sans-serif;
-    font-size: clamp(3rem, 6vw, 5.25rem);
+    font-size: clamp(1.5rem, 3vw, 2.625rem);
     font-weight: 900;
     color: #000;
     display: inline-block;
@@ -202,7 +198,7 @@ body {
 .chao-tag {
     display: inline-block;
     font-family: 'Bebas Neue', cursive;
-    font-size: clamp(6rem, 12vw, 9rem);
+    font-size: clamp(3rem, 6vw, 4.5rem);
     color: #ffd93d;
     text-shadow: 6px 6px 0px #ff6ec7,
                  12px 12px 0px #6ec6ff,
@@ -407,8 +403,8 @@ body {
 }
 
 .character-illustration {
-    width: clamp(702px, 87.75vw, 1228px);
-    height: clamp(877px, 105.3vh, 1404px);
+    width: clamp(351px, 43.875vw, 614px);
+    height: clamp(438px, 52.65vh, 702px);
     position: relative;
 }
 
@@ -821,18 +817,18 @@ body {
 .info-content {
     max-width: 1600px;
     margin: 0 auto;
-    padding: 6.6rem 3rem;
+    padding: 3.90rem 1.77rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 3.58rem;
+    gap: 2.12rem;
     position: relative;
 }
 
 
 .info-text {
     font-family: 'Bebas Neue', cursive;
-    font-size: clamp(3.43rem, 6.44vw, 4.58rem);
+    font-size: clamp(2.03rem, 3.81vw, 2.72rem);
     font-weight: 400;
     color: #ffffff;
     letter-spacing: 0.14em;
@@ -852,8 +848,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: clamp(100px, 14.3vw, 129px);
-    height: clamp(100px, 14.3vw, 129px);
+    width: clamp(59.2px, 8.46vw, 76.3px);
+    height: clamp(59.2px, 8.46vw, 76.3px);
     background: transparent;
     border-radius: 21px;
     padding: 5px;
@@ -960,10 +956,10 @@ body {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 40px;
-    padding: 40px;
-    width: 800px;
-    height: 1000px;
+    border-radius: 20px;
+    padding: 20px;
+    width: 400px;
+    height: 500px;
     position: absolute;
     transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94), 
                 opacity 0.4s ease,
@@ -1038,10 +1034,10 @@ body {
 
 .card-image {
     width: 100%;
-    height: 600px;
-    border-radius: 24px;
+    height: 300px;
+    border-radius: 12px;
     overflow: hidden;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     position: relative;
     display: flex;
     align-items: center;
@@ -1111,18 +1107,18 @@ body {
 
 .graffiti-text {
     font-family: 'Noto Sans SC', sans-serif;
-    font-size: 2.6rem;
+    font-size: 1.3rem;
     font-weight: 600;
     color: #ffffff;
     letter-spacing: 0.02em;
-    margin: 0 0 1rem 0;
+    margin: 0 0 0.5rem 0;
 }
 
 .card-description {
     font-family: 'Noto Sans SC', sans-serif;
-    font-size: 1.7rem;
+    font-size: 0.85rem;
     color: rgba(255, 255, 255, 0.8);
-    margin: 0 0 2rem 0;
+    margin: 0 0 1rem 0;
     line-height: 1.4;
 }
 
@@ -1130,7 +1126,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 0.75rem;
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -1255,7 +1251,7 @@ body {
 
 .gallery-title h2 {
     font-family: 'Bebas Neue', cursive;
-    font-size: 10rem;
+    font-size: 5rem;
     font-weight: 400;
     font-style: italic;
     color: #ff6ec7;
@@ -1286,7 +1282,7 @@ body {
 
 .buy-title h2 {
     font-family: 'Bebas Neue', cursive;
-    font-size: 10rem;
+    font-size: 5rem;
     font-weight: 400;
     font-style: italic;
     color: #ff6ec7;
