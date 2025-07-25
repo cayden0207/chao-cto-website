@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famous Graff - 名画重绘</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue:ital@0;1&family=Noto+Sans+SC:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 顶部CA地址条 -->
+    <div class="top-ca-bar">
+        <div class="top-ca-content">
+            <span class="ca-label-top">Contract Address:</span>
+            <span class="ca-address-top" onclick="copyToClipboard('9eCmVUHn5c8rU3gcVMGHEDo5iYatC7k3AUuw8qmuB8fz')">9eCmVUHn5c8rU3gcVMGHEDo5iYatC7k3AUuw8qmuB8fz</span>
+            <button class="ca-copy-top" onclick="copyToClipboard('9eCmVUHn5c8rU3gcVMGHEDo5iYatC7k3AUuw8qmuB8fz')">
+                <span class="copy-text-top">COPY</span>
+            </button>
+        </div>
+    </div>
+
+    <main class="main-content">
+        <section class="hero-section">
+            <!-- 装饰元素 -->
+            <div class="decoration-stars">
+                <div class="star star-1">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M50 10 L60 40 L90 40 L65 55 L75 85 L50 65 L25 85 L35 55 L10 40 L40 40 Z" />
+                    </svg>
+                </div>
+                <div class="star star-2">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M50 10 L60 40 L90 40 L65 55 L75 85 L50 65 L25 85 L35 55 L10 40 L40 40 Z" />
+                    </svg>
+                </div>
+                <div class="star star-3">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M50 10 L60 40 L90 40 L65 55 L75 85 L50 65 L25 85 L35 55 L10 40 L40 40 Z" />
+                    </svg>
+                </div>
+                <div class="star star-4">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M50 10 L60 40 L90 40 L65 55 L75 85 L50 65 L25 85 L35 55 L10 40 L40 40 Z" />
+                    </svg>
+                </div>
+                <div class="star star-5">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M50 10 L60 40 L90 40 L65 55 L75 85 L50 65 L25 85 L35 55 L10 40 L40 40 Z" />
+                    </svg>
+                </div>
+            </div>
+            <div class="decoration-shapes">
+                <div class="ring ring-1"></div>
+                <div class="ring ring-2"></div>
+                <div class="ring ring-3"></div>
+                <div class="circle circle-1"></div>
+                <div class="circle circle-2"></div>
+                <div class="lightning lightning-1">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M45 10 L20 50 L35 50 L30 90 L80 40 L60 40 L70 10 Z" />
+                    </svg>
+                </div>
+                <div class="lightning lightning-2">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M45 10 L20 50 L35 50 L30 90 L80 40 L60 40 L70 10 Z" />
+                    </svg>
+                </div>
+                <div class="lightning lightning-3">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M45 10 L20 50 L35 50 L30 90 L80 40 L60 40 L70 10 Z" />
+                    </svg>
+                </div>
+                <div class="lightning lightning-4">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M45 10 L20 50 L35 50 L30 90 L80 40 L60 40 L70 10 Z" />
+                    </svg>
+                </div>
+                <div class="lightning lightning-5">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M45 10 L20 50 L35 50 L30 90 L80 40 L60 40 L70 10 Z" />
+                    </svg>
+                </div>
+                <div class="lightning lightning-6">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M45 10 L20 50 L35 50 L30 90 L80 40 L60 40 L70 10 Z" />
+                    </svg>
+                </div>
+            </div>
+            <div class="hero-container">
+                <div class="hero-left">
+                    <h1 class="hero-title">Nancy</h1>
+                    <h2 class="hero-subtitle">
+                        <span class="subtitle-text">潮人做潮事</span>
+                    </h2>
+                    <div class="chao-tag">#Chao</div>
+                </div>
+                <div class="hero-right">
+                    <div class="character-illustration">
+                        <img src="hero-nancy.png" alt="Nancy角色">
+                    </div>
+                </div>
+            </div>
+
+            <!-- 信息条 -->
+            <div class="info-banner">
+                <div class="info-content">
+                    <div class="info-icon">
+                        <img src="shoutdotfun-logo.png" alt="Shout.fun Logo" />
+                    </div>
+                    <span class="info-text">Launched on shoutdotfun</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="graffiti-gallery" class="graffiti-section">
+            <!-- Gallery 标题 -->
+            <div class="gallery-title">
+                <h2>$CHAO is the new fashion</h2>
+            </div>
+            
+            <!-- 装饰元素 - 星星 -->
+            <div class="graffiti-decoration-stars">
+                <div class="star star-g1">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M50 10 L60 40 L90 40 L65 55 L75 85 L50 65 L25 85 L35 55 L10 40 L40 40 Z" />
+                    </svg>
+                </div>
+                <div class="star star-g2">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M50 10 L60 40 L90 40 L65 55 L75 85 L50 65 L25 85 L35 55 L10 40 L40 40 Z" />
+                    </svg>
+                </div>
+                <div class="star star-g3">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M50 10 L60 40 L90 40 L65 55 L75 85 L50 65 L25 85 L35 55 L10 40 L40 40 Z" />
+                    </svg>
+                </div>
+                <div class="star star-g4">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M50 10 L60 40 L90 40 L65 55 L75 85 L50 65 L25 85 L35 55 L10 40 L40 40 Z" />
+                    </svg>
+                </div>
+            </div>
+            <!-- 装饰元素 - 闪电 -->
+            <div class="graffiti-decoration-lightning">
+                <div class="lightning lightning-g1">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M45 10 L20 50 L35 50 L30 90 L80 40 L60 40 L70 10 Z" />
+                    </svg>
+                </div>
+                <div class="lightning lightning-g2">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M45 10 L20 50 L35 50 L30 90 L80 40 L60 40 L70 10 Z" />
+                    </svg>
+                </div>
+                <div class="lightning lightning-g3">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M45 10 L20 50 L35 50 L30 90 L80 40 L60 40 L70 10 Z" />
+                    </svg>
+                </div>
+            </div>
+            <div class="graffiti-container" id="galleryContainer">
+                <!-- Gallery Navigation -->
+                <div class="gallery-navigation">
+                    <button class="nav-btn nav-left" onclick="scrollGallery('left')">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <button class="nav-btn nav-right" onclick="scrollGallery('right')">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="graffiti-card">
+                    <div class="card-image">
+                        <div class="artwork-container">
+                            <img src="Chao Monroe.png" alt="Chao Monroe" class="artwork-image">
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3 class="graffiti-text">Chao Monroe</h3>
+                        <p class="card-description">A trendy take on Marilyn Monroe's iconic pose</p>
+                        <div class="card-meta">
+                            <span class="card-year">2025</span>
+                            <span class="card-medium">Digital Art</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="graffiti-card">
+                    <div class="card-image">
+                        <div class="artwork-container">
+                            <img src="chao lisa.png" alt="Chao Lisa" class="artwork-image">
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3 class="graffiti-text">Chao Lisa</h3>
+                        <p class="card-description">The enigmatic smile meets modern street art</p>
+                        <div class="card-meta">
+                            <span class="card-year">2025</span>
+                            <span class="card-medium">Digital Art</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="graffiti-card">
+                    <div class="card-image">
+                        <div class="artwork-container">
+                            <img src="The Chao.png" alt="The Chao" class="artwork-image">
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3 class="graffiti-text">The Chao</h3>
+                        <p class="card-description">Expressing the chaos of modern life</p>
+                        <div class="card-meta">
+                            <span class="card-year">2025</span>
+                            <span class="card-medium">Digital Art</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="graffiti-card">
+                    <div class="card-image">
+                        <div class="artwork-container">
+                            <img src="Gallery/1.jpeg" alt="CHAO Artwork 1" class="artwork-image">
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3 class="graffiti-text">CHAO Artwork 1</h3>
+                        <p class="card-description">CHAO IS NEW QUEEN</p>
+                        <div class="card-meta">
+                            <span class="card-year">2025</span>
+                            <span class="card-medium">Digital Art</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="graffiti-card">
+                    <div class="card-image">
+                        <div class="artwork-container">
+                            <img src="Gallery/2.jpeg" alt="CHAO Artwork 2" class="artwork-image">
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3 class="graffiti-text">CHAO Artwork 2</h3>
+                        <p class="card-description">CHAO IS NEW QUEEN</p>
+                        <div class="card-meta">
+                            <span class="card-year">2025</span>
+                            <span class="card-medium">Digital Art</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="graffiti-card">
+                    <div class="card-image">
+                        <div class="artwork-container">
+                            <img src="Gallery/3.jpeg" alt="CHAO Artwork 3" class="artwork-image">
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3 class="graffiti-text">CHAO Artwork 3</h3>
+                        <p class="card-description">CHAO IS NEW QUEEN</p>
+                        <div class="card-meta">
+                            <span class="card-year">2025</span>
+                            <span class="card-medium">Digital Art</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="graffiti-card">
+                    <div class="card-image">
+                        <div class="artwork-container">
+                            <img src="Gallery/4.jpeg" alt="CHAO Artwork 4" class="artwork-image">
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3 class="graffiti-text">CHAO Artwork 4</h3>
+                        <p class="card-description">CHAO IS NEW QUEEN</p>
+                        <div class="card-meta">
+                            <span class="card-year">2025</span>
+                            <span class="card-medium">Digital Art</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="graffiti-card">
+                    <div class="card-image">
+                        <div class="artwork-container">
+                            <img src="Gallery/5.jpeg" alt="CHAO Artwork 5" class="artwork-image">
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3 class="graffiti-text">CHAO Artwork 5</h3>
+                        <p class="card-description">CHAO IS NEW QUEEN</p>
+                        <div class="card-meta">
+                            <span class="card-year">2025</span>
+                            <span class="card-medium">Digital Art</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 购买标题 -->
+            <div class="buy-title">
+                <h2>HOW TO BUY $CHAO</h2>
+            </div>
+            
+            <!-- 钱包导航栏 -->
+            <div class="trading-platforms">
+                <div class="platforms-track">
+                    <div class="platform-item">
+                        <img src="wallet/bitget wallet.png" alt="Bitget Wallet">
+                        <span>Bitget Wallet</span>
+                    </div>
+                    <div class="platform-item">
+                        <img src="wallet/okx wallet .png" alt="OKX Wallet">
+                        <span>OKX Wallet</span>
+                    </div>
+                    <div class="platform-item">
+                        <img src="wallet/phantom.png" alt="Phantom">
+                        <span>Phantom</span>
+                    </div>
+                    <div class="platform-item">
+                        <img src="wallet/token pocket.png" alt="TokenPocket">
+                        <span>TokenPocket</span>
+                    </div>
+                    <!-- 重复一组用于无缝循环 -->
+                    <div class="platform-item">
+                        <img src="wallet/bitget wallet.png" alt="Bitget Wallet">
+                        <span>Bitget Wallet</span>
+                    </div>
+                    <div class="platform-item">
+                        <img src="wallet/okx wallet .png" alt="OKX Wallet">
+                        <span>OKX Wallet</span>
+                    </div>
+                    <div class="platform-item">
+                        <img src="wallet/phantom.png" alt="Phantom">
+                        <span>Phantom</span>
+                    </div>
+                    <div class="platform-item">
+                        <img src="wallet/token pocket.png" alt="TokenPocket">
+                        <span>TokenPocket</span>
+                    </div>
+                    <!-- 再重复一组确保流畅循环 -->
+                    <div class="platform-item">
+                        <img src="wallet/bitget wallet.png" alt="Bitget Wallet">
+                        <span>Bitget Wallet</span>
+                    </div>
+                    <div class="platform-item">
+                        <img src="wallet/okx wallet .png" alt="OKX Wallet">
+                        <span>OKX Wallet</span>
+                    </div>
+                    <div class="platform-item">
+                        <img src="wallet/phantom.png" alt="Phantom">
+                        <span>Phantom</span>
+                    </div>
+                    <div class="platform-item">
+                        <img src="wallet/token pocket.png" alt="TokenPocket">
+                        <span>TokenPocket</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 $CHAO CTO OFFICIAL WEBSITE</p>
+    </footer>
+
+    <script>
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(function() {
+                // 显示复制成功提示
+                const copyButton = document.querySelector('.copy-text-top');
+                if (copyButton) {
+                    const originalText = copyButton.textContent;
+                    copyButton.textContent = 'COPIED!';
+                    copyButton.style.color = '#28a745';
+                    setTimeout(() => {
+                        copyButton.textContent = originalText;
+                        copyButton.style.color = '#333';
+                    }, 2000);
+                }
+            }).catch(function(err) {
+                console.error('无法复制文本: ', err);
+                // 降级方案：选中文本
+                const range = document.createRange();
+                const selection = window.getSelection();
+                range.selectNodeContents(document.querySelector('.ca-address-top'));
+                selection.removeAllRanges();
+                selection.addRange(range);
+            });
+        }
+
+        let currentIndex = 0;
+        const totalCards = 8;
+        let isAnimating = false;
+
+        function updateGallery() {
+            const cards = document.querySelectorAll('.graffiti-card');
+            
+            cards.forEach((card, index) => {
+                // 移除所有类
+                card.classList.remove('active', 'next-1', 'next-2', 'prev-1', 'prev-2');
+                
+                // 计算相对位置
+                let relativeIndex = index - currentIndex;
+                
+                // 处理循环
+                if (relativeIndex > totalCards / 2) {
+                    relativeIndex -= totalCards;
+                } else if (relativeIndex < -totalCards / 2) {
+                    relativeIndex += totalCards;
+                }
+                
+                // 根据相对位置设置类
+                if (relativeIndex === 0) {
+                    card.classList.add('active');
+                } else if (relativeIndex === 1) {
+                    card.classList.add('next-1');
+                } else if (relativeIndex === 2) {
+                    card.classList.add('next-2');
+                } else if (relativeIndex === -1) {
+                    card.classList.add('prev-1');
+                } else if (relativeIndex === -2) {
+                    card.classList.add('prev-2');
+                }
+            });
+        }
+
+        function scrollGallery(direction) {
+            if (isAnimating) return;
+            
+            isAnimating = true;
+            
+            if (direction === 'left') {
+                currentIndex = (currentIndex - 1 + totalCards) % totalCards;
+            } else {
+                currentIndex = (currentIndex + 1) % totalCards;
+            }
+            updateGallery();
+            
+            // 重置动画状态
+            setTimeout(() => {
+                isAnimating = false;
+            }, 400);
+        }
+
+        // 触摸滑动支持
+        let touchStartX = 0;
+        let touchEndX = 0;
+        const minSwipeDistance = 50;
+
+        function handleTouchStart(e) {
+            touchStartX = e.changedTouches[0].screenX;
+        }
+
+        function handleTouchEnd(e) {
+            touchEndX = e.changedTouches[0].screenX;
+            handleSwipe();
+        }
+
+        function handleSwipe() {
+            const swipeDistance = touchEndX - touchStartX;
+            
+            if (Math.abs(swipeDistance) > minSwipeDistance) {
+                if (swipeDistance > 0) {
+                    // 向右滑动，显示上一张
+                    scrollGallery('left');
+                } else {
+                    // 向左滑动，显示下一张
+                    scrollGallery('right');
+                }
+            }
+        }
+
+        // 初始化gallery
+        document.addEventListener('DOMContentLoaded', function() {
+            updateGallery();
+            
+            // 添加触摸事件监听器
+            const galleryContainer = document.getElementById('galleryContainer');
+            if (galleryContainer) {
+                galleryContainer.addEventListener('touchstart', handleTouchStart, { passive: true });
+                galleryContainer.addEventListener('touchend', handleTouchEnd, { passive: true });
+            }
+        });
+    </script>
+</body>
+</html>
